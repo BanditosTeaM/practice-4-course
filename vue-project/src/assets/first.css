@@ -1,0 +1,13 @@
+.block{
+    width: 320px;
+	height: 350px;
+    background-image: url('./image/first/first-close.svg');
+}
+.opened{
+    width: 320px;
+	height: 350px;
+    background-image: url('./image/first/first-open.svg');
+}
+.task{
+    margin-top: 10px;
+}

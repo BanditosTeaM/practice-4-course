@@ -1,0 +1,28 @@
+.block {
+	width: 30px;
+	height: 30px;
+	border: 1px solid #71717a;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+    
+
+	transition: 0.3s ease-in border-radius;
+}
+
+.task{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.hover {
+	border-radius: 20px;
+}
+
+.wrapper {
+	display: flex;
+	gap: 10px;
+	flex-wrap: wrap;
+}
