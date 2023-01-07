@@ -4,13 +4,11 @@
 	padding: 8px 20px;
 
 	border-radius: 10px;
-	background-color: #38bdf8;
 	color: #f8fafc;
 	border: none;
+	background-color: blue;
+	margin-top: 10px;
 
-	font-size: 1.5em;
-
-	transition: 0.2s background-color, 0.3s color;
 }
 .task{
     margin-top: 10px;

@@ -8,9 +8,9 @@ const FiveTask = import('../views/Five.vue')
 const Sixask = import('../views/Six.vue')
 const SevenTask = import('../views/Seven.vue')
 const EightTask = import('../views/Eight.vue')
-// const NineTask = import('../views/Nine.vue')
-// const TenTask = import('../views/Ten.vue')
-
+const NineTask = import('../views/Nine.vue')
+const TenTask = import('../views/Ten.vue')
+const ElevenTask = import('../views/Eleven.vue')
 
 const routers =[
   { path: '/task-1',
@@ -24,9 +24,9 @@ const routers =[
   { path: '/task-6', name : 'Six task', component: Sixask},
   { path: '/task-7', name : 'Seven task', component: SevenTask},
   { path: '/task-8', name : 'Eight task', component: EightTask},
-  // { path: '/task-9', name : 'Nine task', component: NineTask},
-  // { path: '/task-10', name : 'Ten task', component: TenTask},
-  
+  { path: '/task-9', name : 'Nine task', component: NineTask},
+  { path: '/task-10', name : 'Ten task', component: TenTask},
+  { path: '/task-11', name : 'Eleven task', component: ElevenTask},
 
   ]
 

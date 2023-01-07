@@ -13,7 +13,9 @@ const onClick = (e, id) => {
 </script>
 
 <template>
-    <p :class="[$style.task]">Створіть елементи div, p, button, a. Використовуючи target при натисканні виведіть
+    <p :class="[$style.task]">
+		Завдання 7 (2 бали)
+		Створіть елементи div, p, button, a. Використовуючи target при натисканні виведіть
     інформацію про тип елемента на якому клікнули.</p>
 	<div :class="$style.current">{{ currentTagName }}</div>
 	<div :class="$style.wrapper">

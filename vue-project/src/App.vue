@@ -6,9 +6,10 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <template>
   <h1>День 1</h1>
+  <br>
   <div>
     <router-link class="link"
-      v-for="item in 10"
+      v-for="item in 11"
 					:to="'task-' + item"
           
 				>
