@@ -45,7 +45,7 @@ const sortQuotes = function(){
 
 <template>
     <div>
-        <h1 :class="$style.task"><b>Фільтрація по цитатам,які мають автора і не мають автора. За допомогою перемикача (radiobutton).</b></h1>
+        <p :class="$style.task"><b>Фільтрація по цитатам,які мають автора і не мають автора. За допомогою перемикача (radiobutton).</b></p>
     <input type="radio" name="author" v-model="isAuthor" value="exist">Є автор
     <input type="radio" name="author" v-model="isAuthor" value="">Немає автора
     <div class="quotes" v-for="qoute in filteredQuotes">
@@ -55,7 +55,7 @@ const sortQuotes = function(){
   </div>
   
   <div >
-    <h1 :class="$style.task"><b>Сортування списку цитат по прізвищу автора за алфавітом. Сортувати в окремому списку, зберігаючи відображення первинного, не відсортованого списку.</b></h1>
+    <p :class="$style.task"><b>Сортування списку цитат по прізвищу автора за алфавітом. Сортувати в окремому списку, зберігаючи відображення первинного, не відсортованого списку.</b></p>
     <button @click="sortQuotes">Сортувати</button>
     <div class="quotes" v-for="qoute in sortedQuotes.sortQuotes">
       <p >{{ qoute.quote }}</p>
