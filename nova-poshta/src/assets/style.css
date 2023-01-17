@@ -1,0 +1,32 @@
+.poshta {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    height: 800px;
+    overflow: auto;
+    flex-direction: column;
+    background-color: beige;
+}
+
+.cities{
+    width: 500px;
+    height: 40px;
+    margin: 5px;
+    
+}
+.warehouses {
+    width: 508px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+span{
+    margin: 20px 0 10px 0;
+    width: 500px;
+    display: flex;
+    align-items:flex-start;
+    align-content: flex-start;
+}
